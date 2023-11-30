@@ -1,4 +1,3 @@
-import './App.css';
 import Follow from './components/Follow';
 
 function App() {
