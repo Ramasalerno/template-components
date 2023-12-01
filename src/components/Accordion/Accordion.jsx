@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 function AccordionComponent() {
     return (
         <Container className='mt-10 mb-10'>
+            <h2 className='text-center m-7'>Preguntas frecuentes</h2>
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>

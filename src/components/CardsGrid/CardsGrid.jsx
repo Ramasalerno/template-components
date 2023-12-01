@@ -14,6 +14,7 @@ const products = [
 function CardsGrid() {
     return (
         <Container className="mt-10">
+            <h1 className='text-center m-10'>Trending products</h1>
             <Row xs={1} md={3} className="justify-content-center">
                 {products.map((product) => (
                     <Col key={product.id} className="mb-4 d-flex justify-content-center">
