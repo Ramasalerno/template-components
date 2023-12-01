@@ -1,10 +1,14 @@
-import Follow from './components/Follow';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './screens/Home';
 
 function App() {
   return (
-    <div className='App'>
-      <Follow />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
