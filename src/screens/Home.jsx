@@ -5,6 +5,7 @@ import Slider from '../components/Slider/Slider';
 import CardsGrid from '../components/CardsGrid/CardsGrid';
 import Footer from '../components/Footer/Footer';
 import AccordionComponent from '../components/Accordion/Accordion';
+import PlaceholderComponent from '../components/Placeholder/Placeholder';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <CardsGrid />
       {/* <Follow /> */}
       <AccordionComponent />
+      <PlaceholderComponent/>
       <Footer />
     </div>
   );
